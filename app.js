@@ -3,7 +3,7 @@ function truncateString(str, num) {
   //console.log(num);
   if (str.length > num) {
 
-    strHold = str.substring(0,num-3);
+    strHold = str.substring(0,Math.min(num, Math.abs(num-3)));
     //console.log(strHold + "...");
     return strHold + "...";
   }
