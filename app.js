@@ -19,7 +19,8 @@ console.log(truncateString("Peter Piper picked a peck of pickled peppers", 14));
 console.log(truncateString("A-", 1));
 console.log(truncateString("Absolutely Longer", 2));
 
-
+console.log("Absolutely Longer".substring(-1));
+console.log("Absolutely Longer".slice(-1));
 
 //console.log("A-tisket a-tasket".length);
 //console.log("A-tisket a-tasket".slice(3));
